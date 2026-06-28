@@ -3,7 +3,7 @@ import pygame
 
 C_ORANGE = (255, 128, 0)
 C_WHITE = (255, 255, 255)
-C_YELLOW = (255, 255, 128)
+C_YELLOW = (255, 255, 0)
 C_GREEN = (0, 128, 0)
 C_CYAN = (0, 128, 128)
 
@@ -34,7 +34,6 @@ ENTITY_DAMAGE = {
 # E
 EVENT_ENEMY = pygame.USEREVENT + 1
 EVENT_TIMEOUT = pygame.USEREVENT + 2
-
 ENTITY_SPEED = {
     'Level1Bg0': 0,
     'Level1Bg1': 1,
@@ -58,6 +57,7 @@ ENTITY_SPEED = {
     'Enemy2Shot': 2,
 
 }
+
 # H
 ENTITY_HEALTH = {
     'Level1Bg0': 999,
@@ -81,6 +81,7 @@ ENTITY_HEALTH = {
     'Enemy2': 60,
     'Enemy2Shot': 1,
 }
+
 # S
 ENTITY_SCORE = {
     'Level1Bg0': 0,
@@ -104,12 +105,14 @@ ENTITY_SCORE = {
     'Enemy2': 125,
     'Enemy2Shot': 0,
 }
+
 ENTITY_SHOT_DELAY = {
     'Player1': 20,
     'Player2': 15,
     'Enemy1': 100,
     'Enemy2': 200,
 }
+
 # M
 MENU_OPTION = ('NEW GAME 1P',
                'NEW GAME 2P - COOPERATIVE',
