@@ -40,7 +40,7 @@ class EntityMediator:
                 ent1.health -= ent2.damage
                 ent2.health -= ent1.damage
                 ent1.last_dmg = ent2.name
-                ent1.last_dmg = ent1.name
+                ent2.last_dmg = ent1.name
 
     @staticmethod
     def __give_score(enemy: Enemy, entity_list: list[Entity]):
